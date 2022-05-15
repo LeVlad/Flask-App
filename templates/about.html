@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-    <h2>About Page</h2>
+
+{{ company[1]["name"] }}
+
+    <h2>{{ page_title }}</h2>
     <p>
         The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
 		recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when
@@ -39,6 +42,66 @@
 				Frerin, grandsons of Thráin II, and great-grandsons of Thrór. Fíli's most distinguishing feature was his long nose,
 				the longest of any of the Dwarves in Thorin's company.
 			</p>
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>Oin</h3>
+            <p>
+                In the year TA 2746, Thorin II was born to Dwarven prince Thráin II in the mountain city of The Lonely Mountain.
+                Early in his youth, he and the other Dwarves of the Lonely Mountain were forced to flee by the dragon Smaug in TA
+                2770. While in exile, he quickly grew to become a capable warrior. This was demonstrated when he participated in the
+                Battle of Azanulbizar in TA 2799. He marched with one of the Dwarven armies beneath the East-gate of Moria. At some
+                point in the fighting, his shield broke, and using an oaken tree branch found on the floor as a shield, he gained
+                the epithet "Oakenshield," which would remain with him even in death.Óin was in charge of lighting fires, along with
+                Glóin. Following The Hobbit, he was killed defending Moria.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://lotr.fandom.com/wiki/%C3%93in?file=Oinstaff.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://lotr.fandom.com/wiki/Gl%C3%B3in?file=Gloin_2.jpg" alt="">
+        </div>
+        <div class="col-md-7">
+            <h3>Gloin</h3>
+            <p>
+                Glóin son of Gróin was one of the Dwarves of Thorin II Oakenshield's company who set out to reclaim the Lonely
+                Mountain in the Quest of Erebor. He was also the father of Gimli, who became a member of the Fellowship of the Ring.
+            
+                Glóin chiefly appears in The Hobbit as a supporting character. Glóin also appears in The Fellowship of the Ring
+                during the Council of Elrond.
+            </p>
+        </div>
+    </div>
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h3>Balin</h3>
+            <p>
+                Balin is one of the kinder Dwarves and has a position of leadership amongst the company. He often takes watch, has
+                royal blood, and is the second eldest. After The Hobbit, he becomes a close friend of Bilbo, and later becomes the
+                Lord of Moria, being slain there by Orcs. His tomb is found in Moria in The Lord of the Rings.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="https://lotr.fandom.com/wiki/Balin?file=Balin.png" alt="">
+        </div>
+    </div>
+
+    <div class="row featurette">
+        <div class="col-md-5">
+            <img src="https://lotr.fandom.com/wiki/Dwalin?file=Dwalin.jpg" alt="">
+        </div>
+        <div class="col-md-7">
+            <h3>Dwalin</h3>
+            <p>
+                FDwalin was one of the Dwarves who traveled with Bilbo and Gandalf as a member of Thorin and Company on the quest to
+                regain the Lonely Mountain from the Dragon Smaug. He was the brother of Balin and the youngest son of Fundin.
+            </p>
         </div>
     </div>
 {% endblock %}
